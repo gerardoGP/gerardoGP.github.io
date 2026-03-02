@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gerardo Garibay — Java Dev</title>
+    <meta name="description" content="Portafolio de un desarrollador backend: experiencia, proyectos, skills y contacto." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- ====== Header ====== -->
+    <header>
+        <div class="wrap nav" role="navigation" aria-label="Navegación principal">
+            <div class="brand">
+                <!-- <div class="logo" aria-hidden="true"><img width="20%" src="logo3-java.png" alt=""></div> -->
+                <!-- <img width="20%" class="logo" src="./assets/java.png" alt="">
+                <span>Gerardo Garibay</span> -->
+                <a href="#inicio">
+                    <img width="20%" class="logo" src="./assets/java.png" alt="">
+                    <span>Gerardo Garibay</span>
+                </a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="links" id="nav-links" aria-label="Secciones">
+                <a class="btn" href="#experiencia">Experiencia</a>
+                <a class="btn" href="#cursos">Cursos</a>
+                <a class="btn" href="#proyectos">Proyectos</a>
+                <a class="btn" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="wrap hero" id="inicio">
+        <div>
+            <div class="profile-pic text-center">
+                <img src="./assets/yo.png" alt="Foto de Tu Nombre" />
+            </div>
+            <h1 class="text-center">GERARDO GARIBAY<br /> </h1>
+            <p class="muted text-justify" style="margin: 12px;">
+                Desarrollador de Sistemas con 4 años de experiencia en soluciones para el sector educación. Tras dominar
+                el stack PHP/MySQL, actualmente me estoy reinventando profesionalmente especializándome en el ecosistema
+                Java. Manejo Spring Boot 3, JPA, Lombok, MapStruct y DTOs. Busco mi primera oportunidad como
+                Desarrollador Backend Java
+            </p>
+            <div class="ctas">
+                <a class="btn-primary" href="#proyectos">🔍 Ver proyectos</a>
+                <a class="btn-primary" href="https://wa.me/51922990952" target="_blank"><i style="margin-left:5px" class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a class="btn-primary" href="https://drive.google.com/file/d/1Y4nYCTBgsdCL70UIAbEhcaV4Ks65a59f/view?usp=sharing" target="_blank">⬇️ Descargar CV</a>
+            </div>
+            <div class="status">
+                <div class="pill">🟢 Freelance</div>
+                <div class="pill">🌎 Remoto</div>
+                <div class="pill">🌎 Híbrido</div>
+                <div class="pill">🌎 Semipresencial</div>
+            </div>
+        </div>
+        <aside class="card-hero" aria-label="Resumen rápido">
+            <h2 class="sr-only">Resumen</h2>
+            <div class="skills">
+                <span class="badge"><span class="dot"></span> Java - Spring Boot</span>
+                <span class="badge"><span class="dot"></span> Php - Laravel</span>
+                <span class="badge"><span class="dot"></span> Node.js / ExpressJs</span>
+                <span class="badge"><span class="dot"></span> Python - Flask</span>
+                <span class="badge"><span class="dot"></span> SQL / NoSQL</span>
+                <span class="badge"><span class="dot"></span> Azure</span>
+                <span class="badge"><span class="dot"></span> Docker</span>
+                <span class="badge"><span class="dot"></span> Git / GitHub</span>
+                <span class="badge"><span class="dot"></span> Scrum</span>
+            </div>
+            <div style="height:12px"></div>
+            <div class="muted" style="font-size:14px">
+                <strong>Stack actual:</strong> Java 17, Spring Boot 3,
+                PostgreSQL, MySQL, Docker, Versionamiento con Git.
+            </div>
+        </aside>
+    </section>
+
+    <!-- ====== Sobre mí ====== -->
+    <section class="wrap" id="sobre-mi">
+        <h2 class="section-title"><span class="dot"></span>SOBRE MI</h2>
+        <p class="muted text-justify">
+            Soy <b>Gerardo Enrique Garibay Palomino</b>, soy titulado en <b>Ingeniería de Sistemas</b>,
+            Desarrollador de Sistemas con 4 años de experiencia en el diseño, desarrollo e implementación de software
+            para Gestión Académica (matrículas,
+            calificaciones, módulos de estudiantes) bajo metodología ágil con Scrum.</br>
+            Mi trayectoria reciente se ha centrado en el ecosistema Java. Actualmente estoy especializado en Spring Boot
+            3, implementando arquitecturas robustas con Spring Data JPA, mapeo de entidades mediante MapStruct, uso de
+            DTOs y gestión de código con Lombok.
+            Durante mi experiencia laboral anterior, trabajé con PHP, JQuery, JavaScript, Git/GitHub y MySQL, lo que me
+            permitió desarrollar una visión completa del ciclo de vida del software
+            (análisis, desarrollo, despliegue y soporte). Busco integrar un equipo de desarrollo backend donde pueda
+            aportar mi capacidad de resolución de problemas y
+            mi reciente especialización en Java Spring Boot.
+        </p>
+    </section>
+
+    <!-- ====== Experiencia ====== -->
+    <section class="wrap" id="experiencia">
+        <h2 class="section-title"><span class="dot"></span>EXPERIENCIA LABORAL</h2>
+        <div class="timeline">
+            <!-- Item 1 -->
+            <article class="item">
+                <div class="dot" aria-hidden="true"></div>
+                <div class="role-card">
+                    <h3>Desarrollador · Universidad Nacional de Cañete</h3>
+                    <div class="meta">Jun 2020 — Jul 2025</div>
+                    <ul>
+                        <li class="text-justify">Lideré la transformación digital, analizando los procesos
+                            administrativos y académicos de
+                            los centros Preuniversitario e Idiomas.</li>
+                        <li class="text-justify">Implementé desde cero las bases de datos y los módulos de los sistemas
+                            como: matrículas,
+                            notas y asistencias, centralizando la información y que solucionaron los errores como la
+                            duplicidad y perdida de información.</li>
+                        <li class="text-justify">Optimicé la generación de certificados y constancias, reduciendo el
+                            tiempo (en la búsqueda
+                            de notas) de días a segundos, mediante la implementación de módulos de registro de notas y
+                            generación de actas finales de notas.</li>
+                    </ul>
+                    <div class="constancias">
+                        <a class="btn-primary"
+                            href="https://drive.google.com/drive/u/1/folders/1KDy7glKioUrTZkouJ_ZjE20awKeDRXm1"
+                            target="_blank">Constancia</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Item 2 -->
+            <article class="item">
+                <div class="dot" aria-hidden="true"></div>
+                <div class="role-card">
+                    <h3>Asistencia de Informatica · Municipalidad Distrital de Cerro Azul - Cañete</h3>
+                    <div class="meta">Feb 2020 — Mar 2020</div>
+                    <ul>
+                        <li>Mantenimiento preventivo de los equipos informaticos.</li>
+                        <li>Realicé labores de soporte ténico e informático a las áreas usuarias.</li>
+                        <li>Recopilar las especificaciones técnicas de los equipos informaticos.</li>
+                        <li>Implemetnación de Asistencia con marcador de huella dactilar.</li>
+                    </ul>
+                    <div class="constancias">
+                        <a class="btn-primary"
+                            href="https://drive.google.com/file/d/1CMwv4HLfTxlF9ufhOoqAozfzzmtZxEty/view"
+                            target="_blank">Constancia</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Cursos y Capacitaciones -->
+    <section class="wrap" id="cursos">
+        <h2 class="section-title"><span class="dot"></span>CURSOS / CERTIFICACIONES</h2>
+        <div class="grid">
+            <article class="project">
+                <div class="body">
+                    <h4>Fundamentos de Devops: Docker</h4>
+                    <p class="muted">Fundamentos de Devops con Docker, comandos Linux, Logs, realizado en la Universidad
+                        Nacional de Ingeniería.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/14ynKlIHqu1sK3fm3u1c74fDuXRferqzL/view">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+            <article class="project">
+                <div class="body">
+                    <h4>Spring Boot 3</h4>
+                    <p class="muted">Fundamentos de Spring Boot, JPA, Spring Security, Json Web Token, Roles y permisos,
+                        realizado en UDEMY.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/1qLmYzDKc0AyezHiZPCBUc8LodpcqSgUF/view">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+            <article class="project">
+                <div class="body">
+                    <h4>Java Programación</h4>
+                    <p class="muted">Fundamentos de JAVA con Netbeans IDE.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/1ffR-FYiFeZlPaH4gE4q2I7MJmNtIdbep/view">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+            <article class="project">
+                <div class="body">
+                    <h4>Diseño Básico de Material UI</h4>
+                    <p class="muted">Curso realizado en Platzi.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/1yMYX5jX3U6gRATwbNRlwI-aUIMez5QOH/view?usp=sharing">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+            <article class="project">
+                <div class="body">
+                    <h4>Desarrollo Web Fullstack</h4>
+                    <p class="muted">Frontend con rect y Backend API Rest con Express Js</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/1YocpoPbXcpeYYu5nYTOCo1xB1d98j_YB/view?usp=sharing">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+            <article class="project">
+                <div class="body">
+                    <h4>Ingenieria de Requerimientos</h4>
+                    <p class="muted">Identificación de los requerimientos funcionales y no funcionales.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank"
+                        href="https://drive.google.com/file/d/1bwLuGkrFMtYqO3J7aetVZWDUZg4yhv85/view?usp=sharing">
+                        Certificado
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- ====== Proyectos ====== -->
+    <section class="wrap" id="proyectos">
+        <h2 class="section-title"><span class="dot"></span>Proyectos realizados</h2>
+        <div class="grid">
+            <article class="project">
+                <div class="cover">Validar DNI en RENIEC</div>
+                <div class="body">
+                    <p class="muted">Microservicio que permite validar un número de DNI utilizando la API de RENIEC, en caso retorneo un resultado, este será guardado en la base de datos del
+                        microservicio.</p>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/gerardoGP/spring-reniec-retrofit" target="_blank" class="btn-primary">Repositorio</a>
+                    <h6>Herramientas utilizadas:</h6>
+                    <div class="chips">
+                        <span class="chip">Spring Boot</span>
+                        <span class="chip">PostgreSQL</span>
+                        <span class="chip">Spring Data JPA</span>
+                        <span class="chip">DTO</span>
+                        <span class="chip">Feign Client</span>
+                        <span class="chip">Retrofit</span>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <div class="cover">Gestión de Cursos</div>
+                <div class="body">
+                    <p class="muted">Microservicio que permite gestionar la creación y enlistar los cursos registrados en la base de datos local</p>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/gerardoGP/backend-academia" target="_blank" class="btn-primary">Repositorio</a>
+                    <h6>Herramientas utilizadas:</h6>
+                    <div class="chips">
+                        <span class="chip">Spring Boot</span>
+                        <span class="chip">Spring Data JPA</span>
+                        <span class="chip">PostgreSQL</span>
+                        <span class="chip">Lombok</span>
+                        <span class="chip">DTO</span>
+                        <span class="chip">MapStruct</span>
+                    </div>
+                </div>
+            </article>
+            <article class="project">
+                <div class="cover">Gestión Académica</div>
+                <div class="body">
+                    <p class="muted">Sistema de Gestión Académica para el control de asistencia, matricula, certificados de estudio, constancia de estudios, pagos.</p>
+                </div>
+                <div class="project-footer">
+                    <a class="btn-primary" target="_blank" href="https://idiomas.undc.edu.pe/sistema/">CI-UNDC</a>
+                    <a class="btn-primary" target="_blank" href="https://cepre.undc.edu.pe/sistema">CEPRE-UNDC</a>
+                    <h6>Herramientas utilizadas:</h6>
+                    <div class="chips">
+                        <span class="chip">Php</span>
+                        <span class="chip">MySql</span>
+                        <span class="chip">FileZilla</span>
+                        <span class="chip">Jquery</span>
+                        <span class="chip">Html</span>
+                        <span class="chip">Css</span>
+                        <span class="chip">JavaScript</span>
+                        <span class="chip">BootStrap</span>
+                        <span class="chip">DataTableJs</span>
+                        <span class="chip">ChartJs</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====== Contacto ====== -->
+    <section class="wrap" id="contacto">
+        <h2 class="section-title"><span class="dot"></span>Contacto</h2>
+        <div class="contact">
+            <div class="card">
+                <form action="https://formspree.io/f/maqdgjwb" method="post" aria-label="Formulario de contacto">
+                    <div class="field">
+                        <label for="name">Nombre</label>
+                        <input id="name" name="name" type="text" placeholder="Tu nombre" required autocomplete="off" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Correo Electronico</label>
+                        <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required autocomplete="off"/>
+                    </div>
+                    <div class="field">
+                        <label for="phone">Numero de Celular</label>
+                        <input id="phone" name="phone" type="text" maxlength="9" placeholder="999999999" required autocomplete="off"/>
+                    </div>
+                    <div class="field">
+                        <label for="msg">Mensaje</label>
+                        <textarea id="msg" name="message" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                    </div>
+                    <button class="btn-primary btn-submit" type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="card">
+                <h3 style="margin-top:0">Información</h3>
+                <p class="muted">Respondo en menos de 24. Disponible para
+                    proyectos freelance y roles de largo plazo.</p>
+                <ul>
+                    <li>📍 Lima, Perú (GMT-5)</li>
+                    <li>💼 Disponibilidad: inmediata(mar-2026)</li>
+                    <li>🖇 <a href="https://github.com/gerardoGP" target="_blank"
+                            aria-label="Github">GitHub</a></li>
+                    <li>🔗 <a href="https://www.linkedin.com/in/gerardo-enrique-garibay-palomino/"
+                            target="_blank" aria-label="LinkedIn">Linkedin</a>
+                    </li>
+                    <li>📬 gerardo210299@gmail.com</li>
+                    <li><i style="margin-left:5px" class="fab fa-whatsapp"></i> <a
+                            href="https://wa.me/51922990952" target="_blank">922990952</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Footer ====== -->
+    <footer>
+        <div class="wrap foot">
+            <small>© <span id="year"></span> Gerardo Garibay. Todos los derechos
+                reservados.</small>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
