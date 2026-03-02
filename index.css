@@ -85,7 +85,6 @@ header {
     /* Tus estilos actuales de diseño */
     backdrop-filter: blur(8px);
     background: linear-gradient(180deg, rgba(11, 15, 20, .95), rgba(11, 15, 20, .85));
-    border-bottom: 1px solid var(--border);
 }
 
 .nav {
