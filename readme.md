@@ -4,9 +4,9 @@ Este proyecto es una pagina web que permite ver mi información personal: resmun
 
 ## Instalación
 1. Clonar el repositorio
-<pre>
+```
     git clone https://github.com/gerardoGP/gerardoGP.github.io.git
-</pre>
+```
 
 2. Editar archivo `index.html` con el editor de codigo [Visual Studio Code](https://code.visualstudio.com/download)
 3. Instalar la extensión **LIVE SERVER** para visualizar en tiempo real los cambios que haga al archivo `index.html`
