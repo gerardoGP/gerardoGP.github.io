@@ -29,6 +29,9 @@ html {
     /* Evita que el header tape el título al navegar */
 }
 
+b{
+    font-weight: 900;
+}
 html,
 body {
     height: 100%
